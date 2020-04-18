@@ -69,3 +69,22 @@ Actual :- fun addTwoNum(num1: Int, num2: Int) {}
         return regex.replace(this," ")
     }
 ```
+## infix function in Kotlin
+```Kotlin
+z//create two obj of MyHeader class
+        val obj1 = MyHeader("H1")
+        val obj2 = MyHeader("H2")
+        val result = obj1 plus obj2 // after adding the infix keyword before the function
+        val result = obj1.plus(obj2) // normal way to do 
+        println(result.name)
+//Create a class
+    class MyHeader(var name: String) {}
+
+     fun MyHeader.plus(other: MyHeader): MyHeader {
+        return MyHeader(this.name + other.name)
+    }
+    infix fun MyHeader.plus(other: MyHeader): MyHeader {
+        return MyHeader(this.name + other.name)
+    }
+```
+
