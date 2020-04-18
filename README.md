@@ -1,4 +1,4 @@
-#Function in Kotlin 
+# Function in Kotlin 
 - Don't need to be part of a class.
 - Introduced with 'fun' keywords.
 - Can have default parameters.
