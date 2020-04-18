@@ -6,8 +6,8 @@
 - Can 'extend' existing type.
 
 ## Syntax of Function
-//with return type and parameters...
 ```Kotlin
+//with return type and parameters...
 Syntax :- fun [nameOfFunction] (parametersName : Type,parameterName : Type,...) : [return type if any] {}
 Actual :- fun addTwoNum(num1: Int, num2: Int): Int {}
 ```
