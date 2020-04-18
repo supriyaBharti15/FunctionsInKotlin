@@ -50,14 +50,22 @@ Actual :- fun addTwoNum(num1: Int, num2: Int) {}
     userDetails(id = 123,name = "supriya")
 ```
 ## Extension Function in Kotlin 
+```kotlin
+ val inputs = "I      am        a Programmer"
+        println("Result:: ${replaceWhiteSpace(inputs)}")
+        println("Result::"+inputs.replaceWhiteSpaceEx())
+```
 ```Kotlin
 //Create a function to replace the white space :: normal use case 
     fun replaceWhiteSpace(inputs: String): String {
         var regex = Regex("\\s")
         return regex.replace(inputs, " ")
     }
-    //call and print the result
-     val result = replaceWhiteSpace("I   am        a  Programmer ")
-        println("Result :: $result")
 ```
-
+```Kotlin
+ // Extension of above method
+    fun String.replaceWhiteSpaceEx():String{
+        val regex = Regex("\\s+")
+        return regex.replace(this," ")
+    }
+```
