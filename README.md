@@ -3,4 +3,5 @@
 - Introduced with 'fun' keywords.
 - Can have default parameters.
 - Can have named parameters.
+- Can 'extend' existing type.
 
