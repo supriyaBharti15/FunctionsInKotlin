@@ -35,4 +35,10 @@ Actual :- fun addTwoNum(num1: Int, num2: Int) {}
         println("Hello World..")
     }
 ```
+```Kotlin
+//Function Expression
+    fun findMax(num1: Int, num2: Int): Int = if (num1 > num2) num1 else num2
+    //print result 
+    println("Max is== ${findMax(23,32)}")
+```
 
