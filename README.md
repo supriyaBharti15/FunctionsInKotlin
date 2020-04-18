@@ -46,5 +46,7 @@ Actual :- fun addTwoNum(num1: Int, num2: Int) {}
     fun userDetails(name: String, id: Int) {
         println("Name = $name and ID = $id")
     }
+    //Print Results will be like 
+    userDetails(id = 123,name = "supriya")
 ```
 
