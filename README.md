@@ -29,4 +29,10 @@ Actual :- fun addTwoNum(num1: Int, num2: Int) {}
         println("Result== $result")
     }
 ```
+```Kotlin
+//function with no returns and no parameters
+    private fun display(){
+        println("Hello World..")
+    }
+```
 
