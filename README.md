@@ -41,7 +41,7 @@ Actual :- fun addTwoNum(num1: Int, num2: Int) {}
     //print result 
     println("Max is== ${findMax(23,32)}")
 ```
-##Named Parameters
+## Named Parameters
 ```Kotlin
     fun userDetails(name: String, id: Int) {
         println("Name = $name and ID = $id")
