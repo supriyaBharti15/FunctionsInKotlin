@@ -22,8 +22,8 @@ fun addTwoNum(num1: Int, num2: Int): Int {
 //with parameters no returns 
 Syntax :- fun [nameOfFunction] (parametersName : Type,parameterName : Type,...) {}
 Actual :- fun addTwoNum(num1: Int, num2: Int) {}
+
 //Example
-//function with no returns
     private fun subTwoNum(num1: Int, num2: Int) {
         val result = num1 - num2
         println("Result== $result")
