@@ -87,4 +87,16 @@ z//create two obj of MyHeader class
         return MyHeader(this.name + other.name)
     }
 ```
-
+```kotlin
+//fibonacci series 1,1,2,3,5,8,13,21
+    private fun printFabonacci(limit: Int) {
+        var prevNum = 0
+        var currentNum = 1
+        var sum: Int
+        for (i in 1..limit) {
+            println(currentNum)
+            sum = prevNum + currentNum
+            prevNum = currentNum
+            currentNum = sum
+        }
+```
