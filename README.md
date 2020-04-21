@@ -100,3 +100,36 @@ z//create two obj of MyHeader class
             currentNum = sum
         }
 ```
+## with and apply
+```kotlin
+val m = Meeting()
+        //1: set value to class
+        m.time = "12 jan"
+        m.title = "Kotlin Example"
+        m.where = "India"
+        println("SUP ${m.title}") // Output :: Kotlin Example
+        
+        //2: set value to class
+        with(m){
+            m.time = "15 jan"
+            m.title = "Java Example"
+            m.where = "India"
+        }
+        println("SUP ${m.title}") // Output :: Java Example
+        
+        //3: set value to class
+        m.apply {
+            m.time = "12 jan"
+            m.title = "Python Example"
+            m.where = "India"
+        }
+        println("SUP ${m.title}") // Output :: Python Example
+
+    }
+
+    class Meeting {
+        var title = ""
+        var time = ""
+        var where = ""
+    }
+```
